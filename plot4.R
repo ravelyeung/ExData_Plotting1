@@ -18,7 +18,7 @@ data_use$Global_reactive_power <- as.numeric(data_use$Global_reactive_power)
 png("plot4.png", width=480, height=480)
 par(mfrow = c(2, 2)) 
 
-plot(data_use_time, data_use$Global_active_power, type="l", xlab="", ylab="Global Active Power")
+plot(data_use_time, data_use$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 
 plot(data_use_time, data_use$Voltage, type="l", xlab="determine", ylab="Voltage")
 
